@@ -1,0 +1,14 @@
+Event push API
+
+* localhost:4000/event
+* body: {
+    "regID": "did:key:z6MkfaeF275KQ5iDEM9GHAueLPYuvZcLeSfQfKMc6rd6yWP2",
+    "to": "did:1",
+    "from": "did:2",
+    "state": "confirmed",
+    "sig": "qwerty"
+}
+
+CID get API
+
+localhost:4000/cid/bafyreieoc5wp5rijzbbr423ytyc32ecdbwr6fw32hjre6hi4nxnftlj52m
